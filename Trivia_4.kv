@@ -1,0 +1,246 @@
+#:import NoTransition kivy.uix.screenmanager.NoTransition
+#:import Factory kivy.factory.Factory
+
+WindowManager:
+	transition: NoTransition()
+	Blank:
+	WelcomeScreen:
+	OfferScreen:
+	KSS:
+	CategoryScreen:
+	QuestionScreen:
+	EndScreen:
+
+
+<Blank>:
+	name: "blank"
+	on_enter: root.entry()
+	
+<WelcomeScreen>:
+	name: "welcome_screen"
+	on_enter: root.entry()
+	GridLayout:
+		cols:1
+		size: root.width, root.height
+		
+		Label:
+			text: "Please wait for a question."
+
+
+<OfferScreen>:
+	name: "offer_screen"
+	on_enter: root.entry()
+	
+	GridLayout:
+		cols:1
+		size: root.width, root.height
+		
+		Label:
+			text: "Do you want to play trivia?"
+			font_size:32
+
+		GridLayout:
+			cols:2
+
+			Button:
+				id:yes
+				font_size:32
+				text: "Yes"
+				on_press: root.is_playing(1)
+
+
+			Button:
+				id:no
+				font_size:32
+				text: "No"
+				on_press: root.is_playing(0)
+
+
+<KSS>:
+	name: "kss"
+	on_enter: root.entry()
+
+	on_leave: root.leave()
+
+	GridLayout:
+		cols:1
+		size: root.width, root.height
+
+		
+		Label:
+			id:question
+			font_size:32
+			halign: 'center'
+			bold:True
+			text: 'Please rate your level of sleepiness'
+
+
+
+		GridLayout:
+			cols:3
+
+			Button:
+				id:kss_1
+				font_size:32
+				on_press: root.click(1)
+				text: '1'
+
+
+			Button:
+				id:kss_2
+				font_size:32
+				on_press: root.click(2)
+				text: '2'
+
+	
+			Button:
+				id: kss_3
+				font_size:32
+				on_press: root.click(3)
+				text: '3'
+			
+
+			Button:
+				id:kss_4
+				font_size:32
+				on_press: root.click(4)
+				text: '4'
+
+
+			Button:
+				id:kss_5
+				font_size:32
+				on_press: root.click(5)
+				text: '5'
+
+
+			Button:
+				id:kss_6
+				font_size:32
+				on_press: root.click(6)
+				text: '6'
+
+	
+			Button:
+				id: kss_7
+				font_size:32
+				on_press: root.click(7)
+				text: '7'
+			
+
+			Button:
+				id:kss_8
+				font_size:32
+				on_press: root.click(8)
+				text: '8'
+
+			Button:
+				id:kss_9
+				font_size:32
+				on_press: root.click(9)
+				text: '9'
+
+
+<CategoryScreen>:
+	name: "category_screen"
+
+	on_enter: root.entry()
+
+	GridLayout:
+		cols:1
+		size: root.width, root.height
+
+		
+		Label:
+			id:category_choose
+			font_size:32
+			halign: 'center'
+			bold:True
+
+
+
+		GridLayout:
+			cols:2
+
+			Button:
+				id:category0
+				font_size:32
+				on_press: root.click(0)
+
+
+			Button:
+				id:category1
+				font_size:32
+				on_press: root.click(1)
+
+	
+			Button:
+				id:category2
+				font_size:32
+				on_press: root.click(2)
+			
+
+			Button:
+				id:category3
+				font_size:32
+				on_press: root.click(3)
+
+
+
+<QuestionScreen>:
+	name: "question_screen"
+
+	on_enter: root.entry()
+
+	GridLayout:
+		cols:1
+		size: root.width, root.height
+
+		
+		Label:
+			id:question
+			font_size:32
+			halign: 'center'
+			bold:True
+
+
+
+		GridLayout:
+			cols:2
+
+			Button:
+				id:answer1
+				font_size:32
+				on_press: root.click(1)
+
+
+			Button:
+				id:answer2
+				font_size:32
+				on_press: root.click(2)
+
+	
+			Button:
+				id: answer3
+				font_size:32
+				on_press: root.click(3)
+			
+
+			Button:
+				id:answer4
+				font_size:32
+				on_press: root.click(4)
+
+<EndScreen>:
+	name: "end_screen"
+
+	on_enter: root.entry()
+	GridLayout:
+		cols:1
+		size: root.width, root.height
+		
+		Label:
+			id:end
+			text: "Thank you for participating!"
+
+

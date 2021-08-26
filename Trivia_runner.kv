@@ -1,0 +1,27 @@
+<TriviaRunner>
+
+	GridLayout:
+		orientataion: "vertical"
+		cols:1
+		size: root.width, root.height
+
+
+		Button:
+			id:triggerkss
+			text:"Trigger Kss"
+			font_size:32
+			on_press: root.triggerKss()
+
+
+		Button:
+			id:triggerquestion
+			text:"Trigger Question"
+			font_size:32
+			on_press: root.triggerQuestion()
+		
+
+		Button:
+			id:triggerscenario
+			text:"Trigger Scenario"
+			font_size:32
+			on_press: root.triggerScenario()
