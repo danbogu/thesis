@@ -1,0 +1,12 @@
+{
+	"Sync_freq" : 30,
+	"Display_time" : 10,
+	"Text_size" : 32,
+	"Words_to_line_break" : 6,
+	"Questions_batch_size" : 6,
+	"Response_time" : 10,
+	"Terminate_time" : 1000,
+	"Hazard_popup_time_dismiss" : 3,
+	"Voiced_questions" : "False",
+	"Kss_threshold" : 7
+}
