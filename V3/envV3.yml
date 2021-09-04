@@ -1,4 +1,4 @@
-name: thesis_trivia
+name: second_task_trivia_env
 channels:
   - conda-forge
   - defaults
