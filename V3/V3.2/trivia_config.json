@@ -1,0 +1,32 @@
+{
+	"Participant_ID" : 6,
+	"Run_number" : 1,
+
+	"SQL_server_name" : "DAN-PC\\SQLEXPRESS",
+	"SQL_database_name" : "trivia",
+	"Questions_main_database_name" : "QUESTIONS_3",
+
+	"Hazard_sign_image_path" : "C:\\Users\\Dan\\Desktop\\warning-light.png", 
+	"Degraded_fitness_eye_sign_image_path" : "C:\\Users\\Dan\\Desktop\\degraded_fitness.png",
+	"Degraded_fitness_coffee_sign_image_path" : "C:\\Users\\Dan\\Desktop\\degraded_fitness_coffee.png",
+	"Clock_log_file_path" : "C:\\Users\\Dan\\Desktop\\clock_log.txt",
+	"Question_trigger_path" : "C:\\Users\\Dan\\Desktop\\trigger.txt",
+	"Kss_trigger_path" : "C:\\Users\\Dan\\Desktop\\kss_trigger.txt",
+	"Hazard_popup_trigger_path" : "C:\\Users\\Dan\\Desktop\\popup_trigger.txt",
+
+	"Mute_sound_file_path" : "C:\\Users\\Dan\\Downloads\\Soundless Sound.wav",
+	"Questions_sound_folder_path" : "C:\\Users\\Dan\\Desktop\\audio questions",
+	
+	"Sync_freq" : 30,
+	"Display_time" : 10,
+	"Text_size" : 32,
+	"Words_to_line_break" : 6,
+	"Questions_batch_size" : 6,
+	"Response_time" : 20,
+	"Score_screen_time" : 10,
+	"Answer_click_delay" : 1,
+	"Terminate_time" : 1000,
+	"Hazard_popup_time_dismiss" : 3,
+	"Voiced_questions" : "True",
+	"Kss_threshold" : 7
+}
