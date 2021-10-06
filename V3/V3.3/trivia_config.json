@@ -1,0 +1,38 @@
+{
+	"Participant_ID" : 6,
+	"Run_number" : 1,
+
+	"SQL_server_name" : "DAN-PC\\SQLEXPRESS",
+	"SQL_database_name" : "trivia",
+	"Questions_main_database_name" : "QUESTIONS_3",
+
+	"Hazard_sign_image_path" : "C:\\Users\\Dan\\Desktop\\warning-light.png", 
+	"Degraded_fitness_eye_sign_image_path" : "C:\\Users\\Dan\\Desktop\\degraded_fitness.png",
+	"Degraded_fitness_coffee_sign_image_path" : "C:\\Users\\Dan\\Desktop\\degraded_fitness_coffee.png",
+	"Car_home_screen" : "C:\\Users\\Dan\\Desktop\\car_screen_inside.png",
+	"Clock_log_file_path" : "C:\\Users\\Dan\\Desktop\\clock_log.txt",
+	"Question_trigger_path" : "C:\\Users\\Dan\\Desktop\\trigger.txt",
+	"Kss_trigger_path" : "C:\\Users\\Dan\\Desktop\\kss_trigger.txt",
+	"Hazard_popup_trigger_path" : "C:\\Users\\Dan\\Desktop\\popup_trigger.txt",
+	"Degraded_fitness_file_path":"C:\\Users\\Dan\\Desktop\\DegradedFitness.txt",
+
+
+	"Mute_sound_file_path" : "C:\\Users\\Dan\\Downloads\\Soundless Sound.wav",
+	"Trivia_suggestion_sound_file_path" :  "C:\\Users\\Dan\\Downloads\\OneDrive_1_5.10.2021_Trivia\\Trivia.wav",
+	"Hazard_degradedFitness_sound_file_path" : "C:\\Users\\Dan\\Downloads\\OneDrive_1_5.10.2021_sounds\\alert 1(V1).wav",
+	"Rest_required_sound_file_path" : "C:\\Users\\Dan\\Downloads\\OneDrive_1_5.10.2021_sounds\\alert 3(V1).wav",
+	"Questions_sound_folder_path" : "C:\\Users\\Dan\\Desktop\\audio questions",
+	
+	"Sync_freq" : 30,
+	"Text_size" : 32,
+	"Words_to_line_break" : 6,
+	"Questions_batch_size" : 6,
+	"Response_time" : 20,
+	"Score_screen_time" : 10,
+	"Answer_click_delay" : 1,
+	"Terminate_time" : 1000,
+	"Hazard_popup_time_dismiss" : 3,
+	"Time_to_dismiss_degraded_fitness_popup": 10,
+	"Voiced_questions" : "True",
+	"Kss_threshold" : 7
+}
